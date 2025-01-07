@@ -1,0 +1,85 @@
+/* CSS for index.html [homepage] */
+
+/* NECESSARY */
+@import url("master.css");
+
+header {
+    height: 100vh;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: 5vw;
+}
+
+header marquee {
+    position: absolute;
+    width: 90vw;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(255, 66, 66);
+    color: var(--defcol);
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 5px;
+
+    font-family: 'Tgyhrcn';
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.circlebg-a {
+    background: rgb(41,47,86);
+    background: linear-gradient(90deg, rgba(41,47,86,1) 0%, rgba(87,60,113,1) 50%, rgba(138,70,129,1) 100%);
+    z-index: -9999;
+    height: 100px;
+    width: 305px;
+    border-radius: 50%;
+    display: inline-block;
+
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.circlebg-b {
+    background: rgb(164,74,132);
+    background: linear-gradient(90deg, rgba(164,74,132,1) 0%, rgba(212,88,127,1) 50%, rgba(250,112,112,1) 100%);
+    z-index: -9999;
+    height: 100px;
+    width: 305px;
+    border-radius: 50%;
+    display: inline-block;
+
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#bg {
+    filter: blur(100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+}
+
+img {
+    filter: blur(0.5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+    opacity: 20%;
+}
